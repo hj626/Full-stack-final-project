@@ -1,0 +1,23 @@
+/* Blog 캐러셀 화살표 위치 */
+#blogCarousel .carousel-control-prev,
+#blogCarousel .carousel-control-next {
+    width: 50px;
+}
+
+#blogCarousel .carousel-control-prev {
+    left: -50px;
+}
+
+#blogCarousel .carousel-control-next {
+    right: -50px;
+}
+
+/* 🔥 화살표 크기 */
+#blogCarousel .carousel-control-prev-icon,
+#blogCarousel .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    
+}
+
+

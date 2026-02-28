@@ -1,0 +1,347 @@
+/* =====================================================
+   📌 SNS 리스트 페이지
+===================================================== */
+
+.sns-page {
+  width: 100%;
+  margin-top: 140px;
+}
+
+.sns-page .sns-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 글 작성 버튼 */
+.sns-write-btn {
+  padding: 10px 18px;
+  background: #3fa34d;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.sns-write-btn:hover {
+  background: #2f8f46;
+}
+
+/* 3열 포스트 리스트 */
+.sns-page .sns-post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* 포스트 카드 */
+.sns-post-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.sns-post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.sns-post-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.sns-post-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.sns-post-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.sns-post-content-preview {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sns-post-meta {
+  font-size: 13px;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+
+/* =====================================================
+   📌 공통 인풋 스타일
+===================================================== */
+
+.sns-input,
+.sns-textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+
+/* =====================================================
+   📌 글쓰기 페이지
+===================================================== */
+
+.sns-create-container {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.sns-create-box {
+  width: 100%;
+  max-width: 700px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* 라벨 */
+.sns-label {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 20px 0 8px;
+}
+
+/* 파일 업로드 */
+.sns-file-upload {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sns-file-input {
+  display: none;
+}
+
+.sns-file-btn {
+  background: #3fa34d;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  font-weight: 600;
+}
+
+.sns-file-btn:hover {
+  background: #2f8f46;
+}
+
+.sns-file-name {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 미리보기 */
+.sns-preview {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #f0f0f0;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+/* 등록 버튼 */
+.sns-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #3fa34d;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.sns-submit-btn:hover {
+  background: #2f8f46;
+}
+
+
+/* =====================================================
+   📌 상세 페이지
+===================================================== */
+
+.sns-detail-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 160px auto 100px;
+  padding: 0 20px;
+}
+
+.sns-detail-box {
+  background: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sns-detail-info {
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.sns-detail-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.sns-detail-image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 25px 0;
+}
+
+.sns-detail-content {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+   white-space: pre-line; 
+}
+
+
+/* =====================================================
+   📌 좋아요 + 공유 버튼
+===================================================== */
+
+.sns-detail-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 10px 0 25px;
+}
+
+.sns-like-btn,
+.sns-share-btn {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.sns-like-btn:hover,
+.sns-share-btn:hover {
+  background: #f0f0f0;
+}
+
+
+/* =====================================================
+   📌 댓글 영역 — 디자인 4번 스타일
+===================================================== */
+
+.sns-comment-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* 댓글 한 개 */
+.sns-comment-item {
+  display: flex;
+  gap: 12px;
+  padding: 18px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.sns-comment-profile {
+  font-size: 30px;
+}
+
+.sns-comment-content {
+  flex: 1;
+}
+
+.sns-comment-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.sns-comment-author {
+  font-weight: 600;
+  color: #333;
+}
+
+.sns-comment-text {
+  font-size: 16px;
+  color: #222;
+  white-space: pre-line;
+}
+
+/* 댓글 입력 */
+.sns-comment-write {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+}
+
+.sns-comment-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.sns-comment-btn {
+  padding: 12px 16px;
+  background: #3fa34d;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sns-comment-btn:hover {
+  background: #2f8f46;
+}
