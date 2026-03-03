@@ -97,6 +97,38 @@
 
 ## 🖥 실행 화면
 
+### 🖥️화면 구성
+
+https://github.com/user-attachments/assets/c24b0445-6a34-45c4-8773-c4c82eeab7a4
+
+<br>
+
+### 👤 일반회원 로그인 및 기능
+
+https://github.com/user-attachments/assets/0c38e388-9ed5-473f-85a4-365a03a8384e
+
+<br>
+
+### 📦 판매자 로그인 및 기능
+
+https://github.com/user-attachments/assets/f2a7f466-951e-441b-9ce0-5279e0c7772c
+
+<br>
+
+### ✍ 어드민 로그인 및 기능
+
+
+https://github.com/user-attachments/assets/ec20d91e-04a3-4606-bb65-b491eba0562f
+
+<br>
+
+### 🧐 상담기능
+
+https://github.com/user-attachments/assets/a9942448-fe5a-46b0-ae1b-c089b07bc9b5
+
+
+<br>
+
 ---
 
 
@@ -113,7 +145,7 @@
 - 보안 test 후 추가 개발.
 - 유사 사이트 연구 후 베리에이션.
 - ui/Ux 및 세련된 디자인 개선 및 추가 매출발생 창구 기능 추가 개발.
----
+
 
 
 
