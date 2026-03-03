@@ -114,3 +114,72 @@
 - 유사 사이트 연구 후 베리에이션.
 - ui/Ux 및 세련된 디자인 개선 및 추가 매출발생 창구 기능 추가 개발.
 ---
+
+
+
+---
+
+👥 Team 5조
+
+<table>
+<tr>
+<td align="center" width="180">
+<img src="https://github.com/waguwagu796.png?size=120" width="120" height="120" alt="김재혁" />
+</a><br/>
+<b> PL/ 김재혁</b><br/>
+<sub>Full-stack</sub>
+</td>
+
+
+
+<td align="center" width="180">
+<a href="https://github.com/hj626">
+<img src="https://github.com/hj626.png?size=120" width="120" height="120" alt="강혜정" />
+</a><br/>
+<b> 강혜정</b><br/>
+<sub>Full-stack</sub><br/>
+<a href="https://github.com/hj626">@hj626</a>
+</td>
+
+
+
+<td align="center" width="180">
+<img src="https://github.com/Trud-Hong.png?size=120" width="120" height="120" alt="홍원식" />
+</a><br/>
+<b>홍원식</b><br/>
+<sub>Full-stack</sub><br/>
+</td>
+
+<td align="center" width="180">
+<img src="https://github.com/insu1918.png?size=120" width="120" height="120" alt="황인수" />
+</a><br/>
+<b>황인수</b><br/>
+<sub>Full-stack</sub><br/>
+</td>
+
+
+<td align="center" width="180">
+<img src="https://github.com/JIWoen-code.png?size=120" width="120" height="120" alt="박지원" />
+</a><br/>
+<b>박지원</b><br/>
+<sub>Full-stack</sub><br/>
+</td>
+
+<td align="center" width="180">
+<img src="https://github.com/khr113201-eng.png?size=120" width="120" height="120" alt="김명갑" />
+</a><br/>
+<b>김명갑</b><br/>
+<sub>Full-stack</sub><br/>
+</td>
+
+
+
+
+
+
+
+
+
+</tr>
+</table>
+
